@@ -1,0 +1,58 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 5px 15px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+main {
+  height: calc(100vh - 60px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.photo {
+  height: 50vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.photo button {
+  all: unset;
+  width: 240px;
+  height: 60px;
+  text-align: center;
+  background: powderblue;
+  margin-bottom: 20px;
+  color: steelblue;
+}
+
+.photo-one {
+  background: url('https://source.unsplash.com/w6OniVDCfn0/960x720');
+}
+
+.photo-two {
+  background: url('https://source.unsplash.com/KWxlPUbhpH0/960x720');
+}
